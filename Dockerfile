@@ -11,5 +11,3 @@ ADD tmp/share_verilator/ /usr/local/share/verilator/
 ADD tmp/verilator* /usr/local/bin/
 ADD run-test.sh /root/run-test.sh
 
-
-
