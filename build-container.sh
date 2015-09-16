@@ -1,7 +1,8 @@
 TOOLCHAIN_DIR=/usr/local/llvm-nyuzi/bin
 
+rm -rf tmp/*
 mkdir -p tmp
-cp $TOOLCHAIN_DIR/clang-3.7 tmp/
+cp $TOOLCHAIN_DIR/clang-3.8 tmp/
 cp $TOOLCHAIN_DIR/elf2hex tmp/
 cp $TOOLCHAIN_DIR/ld.mcld tmp/
 cp $TOOLCHAIN_DIR/llvm-ar tmp/
