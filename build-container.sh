@@ -11,4 +11,5 @@ cp -R /usr/local/share/verilator tmp/share_verilator
 cp /usr/local/bin/verilator* tmp/
 
 docker build -t jeffbush001/nyuzi-build:latest .
+docker push jeffbush001/nyuzi-build
 
