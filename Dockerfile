@@ -9,5 +9,4 @@ RUN ln -s /usr/local/llvm-nyuzi/bin/clang-3.8 /usr/local/llvm-nyuzi/bin/clang
 RUN ln -s /usr/local/llvm-nyuzi/bin/clang-3.8 /usr/local/llvm-nyuzi/bin/clang++
 ADD tmp/share_verilator/ /usr/local/share/verilator/
 ADD tmp/verilator* /usr/local/bin/
-ADD run-test.sh /root/run-test.sh
 
